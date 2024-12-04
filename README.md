@@ -23,6 +23,10 @@ El objetivo de este proyecto fue replicar el diseño provisto para **desktop** y
 - **CSS**: Estilos personalizados sin frameworks adicionales.
 - **Responsive Design**: Implementación de estilos adaptativos para desktop y mobile.
 
+## Github Pages
+
+https://spawnbig.github.io/bento-challenge/
+
 ## 🛠️ Instalación y Ejecución
 
 Sigue estos pasos para ejecutar el proyecto en tu máquina local:
@@ -56,3 +60,5 @@ npm run dev
 ```bash
 http://localhost:5173
 ```
+
+
