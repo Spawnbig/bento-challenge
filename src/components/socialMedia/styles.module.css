@@ -1,0 +1,44 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #7651dc;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: 500;
+  text-align: center;
+  margin: 0 10% 0 10%;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.xten {
+  color: #fdcb70;
+}
+
+.faster {
+  font-style: italic;
+}
+
+@media (max-width: 1024px) {
+  .cardContainer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 80%;
+  }
+  .title {
+    font-size: 2rem;
+  }
+}

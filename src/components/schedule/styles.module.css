@@ -1,0 +1,50 @@
+.containerCard {
+  display: flex;
+  flex-direction: column;
+  background-color: #dcd1fc;
+  border-radius: 5px;
+  max-height: 70%;
+  gap: 10px;
+  overflow: hidden;
+  min-height: 100%;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 10% 30% 0 10%;
+  letter-spacing: -2px;
+  line-height: 85%;
+}
+
+.containerCard img {
+  margin-left: 10%;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.containerCard p {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+  .containerCard img {
+    width: 80%;
+    margin-top: 20px;
+  }
+  .containerCard {
+    padding-bottom: 5%;
+  }
+  .containerCard p {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
