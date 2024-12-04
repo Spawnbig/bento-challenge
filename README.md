@@ -1,50 +1,58 @@
-# React + TypeScript + Vite
+# Social Media Dashboard Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositorio contiene la implementación de un challenge llamado Bento grid. El proyecto fue desarrollado usando **React** con **Vite** y estilos manejados con **CSS puro**.
 
-Currently, two official plugins are available:
+## 🎯 Descripción del Proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+El objetivo de este proyecto fue replicar el diseño provisto para **desktop** y **mobile**.
 
-## Expanding the ESLint configuration
+## 🖼️ Diseños
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Desktop
 
-- Configure the top-level `parserOptions` property like this:
+![Diseño Desktop](./docs/desktop-design.jpg)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+### Mobile
+
+![Diseño Mobile](./docs/mobile-design.jpg)
+
+## 🚀 Tecnologías Utilizadas
+
+- **React**: Biblioteca para construir interfaces de usuario.
+- **Vite**: Herramienta de desarrollo rápida y ligera.
+- **CSS**: Estilos personalizados sin frameworks adicionales.
+- **Responsive Design**: Implementación de estilos adaptativos para desktop y mobile.
+
+## 🛠️ Instalación y Ejecución
+
+Sigue estos pasos para ejecutar el proyecto en tu máquina local:
+
+1. Clona este repositorio:
+
+   ```bash
+   git clone https://github.com/tu-usuario/tu-repo.git
+   ```
+
+2. Ve al directorio del proyecto:
+
+```bash
+cd tu-repo
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+3. Instala las dependencias:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+```bash
+npm install
+```
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+4. Ejecuta el servidor de desarrollo
+
+```bash
+npm run dev
+```
+
+5. Abre tu navegador y ve a:
+
+```bash
+http://localhost:5173
 ```
